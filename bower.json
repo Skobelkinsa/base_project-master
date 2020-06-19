@@ -12,7 +12,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "assets/src/bower_components/",
+    "src/bower_components/",
     "test",
     "tests"
   ],

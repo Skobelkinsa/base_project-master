@@ -14,32 +14,32 @@ var autoprefixerList = [
 /* пути к исходным файлам (src), к готовым файлам (build), а также к тем, за изменениями которых нужно наблюдать (watch) */
 var path = {
     build: {
-        html:  'assets/build/',
-        js:    'assets/build/js/',
-        css:   'assets/build/css/',
-        img:   'assets/build/img/',
-        fonts: 'assets/build/fonts/'
+        html:  'build/',
+        js:    'build/js/',
+        css:   'build/css/',
+        img:   'build/img/',
+        fonts: 'build/fonts/'
     },
     src: {
-        html:  'assets/src/*.html',
-        js:    'assets/src/js/global.js',
-        style: 'assets/src/style/global.scss',
-        img:   'assets/src/img/**/*.*',
-        fonts: 'assets/src/fonts/**/*.*'
+        html:  'src/*.html',
+        js:    'src/js/global.js',
+        style: 'src/style/global.scss',
+        img:   'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*'
     },
     watch: {
-        html:  'assets/src/**/*.html',
-        js:    'assets/src/js/**/*.js',
-        css:   'assets/src/style/**/*.scss',
-        img:   'assets/src/img/**/*.*',
-        fonts: 'assets/srs/fonts/**/*.*'
+        html:  'src/**/*.html',
+        js:    'src/js/**/*.js',
+        css:   'src/style/**/*.scss',
+        img:   'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*'
     },
-    clean:     './assets/build'
+    clean:     './build'
 };
 /* настройки сервера */
 var config = {
     server: {
-        baseDir: './assets/build'
+        baseDir: './build'
     },
     notify: false
 };
